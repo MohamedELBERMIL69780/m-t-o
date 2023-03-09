@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+section#meteo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0 0 42px #232a5426;
+    z-index: 32;
+    transition-duration:.6s ;
+}
+
+section#meteo:hover{
+    box-shadow: 0 0 42px #232a5461;
+}
+
+#meteo nav{
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2em;
+    height: 379px;
+    z-index: -1;
+    border-radius: 150px;
+}
+
+#meteo li{
+    margin: 1em 0;
+    cursor: pointer;
+}
+
+#meteo ul i:hover{
+    color: #3f51b5;
+}
+
+/* -----Centre--- */
+
+.meteo-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+
+.meteo-col input{
+    width: 95%;
+    margin-bottom: 9px;
+    padding: 6px 10px;
+    border-radius: 44px;
+    border: none;
+}
+
+.meteo-bg {
+    background-image: url(../img/landscape.jpg);
+    height: 12em;
+    background-position: center;
+    background-size: cover;
+    width: 27em;
+    background-repeat: no-repeat;
+    border-radius: 17px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 41px #3f51b545;
+}
+
+.bloc-infos-meteo {
+    background: linear-gradient(45deg, #b2beffd4, #e4e8ff);
+    padding: 9px 1em;
+    width: 12em;
+    border-radius: 15px;
+    position: absolute;
+    left: 10px;
+    height: 9em;
+}
+
+.bloc-infos-meteo img{
+    width: 5em;
+    margin-top: 17px
+}
+
+.bloc-infos-meteo h1{
+    font-size: 1em;
+}
+
+.bloc-infos-meteo p{
+    font-size: 10px;
+    color: #505050;
+}
+
+.threeBlocTemp{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.bloc-details{
+    padding: 1em;
+    background: #474b62;
+    border-radius: 9px;
+    margin: 7px 2px;
+}
+
+.bloc-details p{
+    color: #fff;
+}
+
+.meteoAbout{
+    font-size: 12px;
+    margin: 1em 0;
+}
+
+h2, h3{
+    font-size: 11px;
+    margin-bottom: 17px;
+}
+
+.meteo-col{
+    background: #e3e6f7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1em;
+    z-index: -52;
+    border-radius: 0 21px 20px 0;
+}
+
+.fourBands{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.band {
+    margin: 0 2px;
+    background: #fff;
+    height: 11em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 3px;
+    border-radius: 6px;
+}
+
+.band p{
+    font-size: 10px;
+    margin-top: 10px;
+    color: grey;
+}
+
+.band img, .prevision img{
+    width: 4em;
+}
+
+#About{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.prevision{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #fff;
+    margin-bottom: 2px;
+    padding: 3px 10px;
+    border-radius: 4px;
+}
+
+.prevision p{
+    font-size: 10px;
+    margin-left: 2px;
+}
+
+.meteoPrevision{
+    margin-left: 2px;
+}
+
+.ppNelement{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.textpp{
+    margin: 0 1em;
+}
+
+.textpp span{
+    font-size: 12px;
+    color: grey;
+}
+
+
+.ppNelement img{
+    width: 2em;
+    border-radius: 53px;
+}
